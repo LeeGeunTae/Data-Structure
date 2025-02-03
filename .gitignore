@@ -1,0 +1,41 @@
+# 빌드 출력 파일 및 바이너리 파일 제외
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.ncb
+*.sdf
+*.ipch
+*.aps
+*.idb
+*.tlog
+*.log
+*.cache
+*.manifest
+*.vsp
+*.vspscc
+*.user
+*.suo
+
+# Visual Studio 솔루션 및 프로젝트 관련 파일 제외
+.vs/
+*.vcxproj.user
+*.csproj.user
+*.csproj.vspscc
+*.sln.docstates
+*.sln.ide
+*.sln.metaproj
+
+# 패키지 및 의존성 관리 관련 파일 제외
+packages/
+node_modules/
+.vscode/
+.DS_Store
+
+# Git 내부 충돌 해결 파일 제외
+*.orig
+*.rej
